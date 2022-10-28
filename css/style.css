@@ -43,8 +43,8 @@ h2 {
 label > img {
 
         width: 30px;
-        background-color: wheat;
-        border-radius: 10px;
+        
+        
     }
 
 
@@ -145,6 +145,14 @@ margin-bottom: 1rem;
     max-width: 250px;
     border-radius: 200px;
     align-items: center;
+    box-shadow: 0px 2px 15px 5px red;
+    transition: 1.5s linear;
+    animation-duration: var(--light-grey) infinite;
+}
+
+.header--image:hover {
+
+    box-shadow: 0px 2px 15px 5px royalblue;
 }
 
 .section-about {
